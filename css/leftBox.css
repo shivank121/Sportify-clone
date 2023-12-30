@@ -1,0 +1,90 @@
+/* THIS IS LEFT BOX OF CONTAINER */
+.left-box{
+    min-width: 25%;
+    border: 2px solid red;
+}
+
+/* Home box scc */
+.left-top-box{
+    max-width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.home-box{
+  max-width: 50%;
+  position: relative;
+  left: 9%;
+  padding-top:20px ;
+}
+
+.home-box ul li{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 23px;
+}
+
+
+
+/* Your library box */
+.your-library{
+    max-width: 100%;
+
+}
+.your-library div{
+    max-width: 92%;    
+    position: relative;
+    left: 6%;                   
+}
+
+.library-box-1{
+    padding: 16px 0px;
+    z-index: 10;
+}
+
+.library-box-1 ul li{
+    list-style: none;
+}
+
+.library-box-1 ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.library-box-1 ul li:nth-child(1){
+    display: flex;
+    gap: 20px;
+    min-width: 147px;
+}
+
+.create-your-first-playlist-box-2{
+    width: 100%;
+    height: 90px;
+    overflow: auto;
+    margin-bottom: 20px;
+    z-index: 0;
+
+}
+.create-your-first-playlist-box-2 section:nth-child(n){
+    background-color: #242424;
+    max-width: 238px;
+    margin: 10px 0px;
+    padding: 10px 5px;
+}
+.create-your-first-playlist-box-2 section div{
+    padding: 6px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(254, 253, 250);
+    border-radius: 20px;
+    color:black;
+    margin-top: 10px;
+}
+.create-your-first-playlist-box-2 section p{
+    margin-bottom: 8px;
+    margin-left: 12px 
+}
+.chips-box-3{
+height: 200px;
+}
