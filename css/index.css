@@ -8,8 +8,3 @@ padding: 0px 1px 0px 10px;
 }
 
 /* THIS IS MAIN CONTAINER  */
-.container{
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-}

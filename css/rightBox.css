@@ -1,5 +1,145 @@
 /* THIS IS RIGHT BOX OF CONTAINER  */
 .right-box{
-    min-width: 73%;
-    border: 2px solid red;
+
+}
+
+.right-top-menuBox{
+   display: flex;
+   justify-content: space-between;
+   padding-left:10px ;
+   padding-top: 20px;
+   padding-bottom: 5px;
+   padding-right: 10px;
+   position: fixed;
+   width: 72%;
+    background: black;
+    z-index: 30;
+}
+
+.left-right-box-btn button{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+}
+
+.signup-login-box{
+
+}
+
+.signUp-btn{
+    border: none;
+    margin-right: 22px;
+    background: transparent;
+}
+.signUp-btn a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.login-btn{
+    border: none;
+    margin-right: 22px;
+    padding: 10px 10px;
+   border-radius:20px ;
+    width: 108px;
+}
+.login-btn a{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
+
+.login-btn a:hover,
+.signUp-btn a:hover {
+    font-size: 15px;
+}
+
+
+
+/* Sportify-playlist */
+
+.Sportify-playlist{
+    scroll-behavior: auto;
+    height: calc(100vh - 100px);
+    /* background-color: white; */
+    overflow:auto;
+    padding: 20px 20px;
+    /* background-color: red; */
+    z-index: 99;
+
+}
+
+.Sportify-playlist h1{
+    margin-top: 37px;
+    margin-bottom: 20px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px
+}
+.cards{
+    width: 250px;
+    background-color:#131313;
+    /* border-color:  solid red; */
+    border-radius: 2px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 1s ease-out;
+    position: relative;
+}
+
+.cards:hover{
+    background-color: rgb(50, 49, 49);
+}
+
+
+.cards img{
+    object-fit: contain;
+    width: 100%;
+    border-radius: 12px;
+}
+.cards div h3, .cards p {
+    margin-top: 10px;
+}
+
+.play-icon {
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    opacity: 0;
+    position:absolute;
+    top: 225px;
+    right: 30px;
+    transition: all 0.2s ease-in-out;
+
+}
+.cards:hover .play-icon {
+    opacity: 1;
+    top: 220px;
+}
+
+
+
+/* MUSIC PLAYBAR CSS */
+.music-playbar{
+ padding: 10px;
+ background-color: green;
+ display: flex;
+ justify-content: center;
+}
+
+.musicBtn{
+    background:transparent;
+    border: none;
+}
+
+.playtBtn{
+    margin: 0 10px;
 }

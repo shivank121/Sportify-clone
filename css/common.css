@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 .icons{
     max-width: 23px;
@@ -16,5 +17,13 @@ body{
 .bg-gray{
     background-color: #121212;
     border-radius: 8px;
+}
+.container{
+    /* display:flex; */
+    margin: 0 auto;
+    gap:0px;
+    max-width: 1250px;
+    display: grid;
+    grid-template-columns: 300px 940px; 
 }
 
